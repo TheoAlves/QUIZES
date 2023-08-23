@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg'><circle cx='16' cy='16' r='14' fill='%23DBBD6B'/></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta property="og:type" content="website" />
+    <title>QUIZES | BÍBLIA</title>
+    <link rel="stylesheet" href="style_biblia.css">
+</head>
+<body>
+	<!-- Botão que inicia o quiz-->
+	<div class="start_btn"><button>Inicie a Prova Sobre a <b>BÍBLIA</b>!</button></div>
+	<!-- caixa de informações -->
+	<div class="info_box">
+		<div class="info-title"><span>Veja algumas regras da Prova:</span></div>
+
+		<div class="info-list">
+			<div class="info">1. Fique atento, pois você terá apenas <span> 15 segundos </span> para responder cada
+				questão; </div>
+			<div class="info">2. Depois que selecionar sua resposta, você não poderá alterar sua resposta; </div>
+			<div class="info">3. Lembrando que você não poderá selecionar nenhuma opção após o término do tempo; </div>
+			<div class="info">4. Não saia da prova enquanto estiver respondendo;</div>
+				<div class="info">5. Os pontos serão com base em suas respostas se elas estiverem corretas.</div>
+			</div>
+
+			<div class="buttons">
+				<button class="quit">Sair da Prova</button>
+				<button class="restart">Continue</button>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- caixa de perguntas -->
+	<div class="quiz_box">
+		<header>
+			<div class="title">PROVA BÍBLIA</div>
+			<div class="timer">
+				<div class="time_left_txt">Tempo restante</div>
+				<div class="timer_sec">15</div>
+			</div>
+			<div class="time_line"></div>
+		</header>
+
+		<section>
+			<div class="que_txt">
+				<!-- Aqui coloca a pergunta do JavaScript -->
+			</div>
+
+			<div class="option_list">
+				<!-- Aqui coloca opções do JavaScript -->
+			</div>
+
+		</section>
+
+		<!-- Rodapé da caixa de perguntas-->
+		<footer>
+			<div class="total_que">
+				<!-- Aqui coloca o número da contagem de perguntas do JavaScript -->
+			</div>
+
+			<button class="next_btn">Próxima questão</button>
+
+		</footer>
+	</div>
+
+
+	<!-- caixa de resultados -->
+	<div class="result_box">
+		<div class="icon">
+			<i class="fas fa-crown"></i>
+		</div>
+		<div class="complete_text">Prova concluida!</div>
+		<div class="score_text">
+			<!-- Aqui inseri o resultado da pontuação do JavaScript -->
+		</div>
+
+		<div class="buttons">
+			<button class="restart">Refazer Prova</button>
+			<button class="quit">Sair</button>
+		</div>
+	</div>
+	<script src="biblia.js"></script>
+	<script src="script.js"></script>
+	
+    <a href="index.html" class="inicio">Voltar para Página inicial</a>
+	<article>
+		<footer>
+			<h1>PROVE SEU CONHECIMENTO SOBRE A BÍBLIA</h1>
+		<div class="my">
+			<a href="https://www.instagram.com/theo_alves_dant/" target="_blank" title="Siga o Criador"><img src="insta.png" height="30px"></a>
+			<h5>Théo Alves</h5>
+        </div>
+		</footer>
+	</article>
+</body>
+
+</html>

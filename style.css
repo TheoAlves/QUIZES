@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Varela Round', sans-serif;
+}
+
+body{
+	background-color: #C2C2C2;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+}
+
+.button {
+	margin:30px;
+  width: 100px 150px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  transition:0.7s;
+ 
+	color:white;
+	font-size:50px;
+  text-decoration: none;
+}
+.biblia{
+	background-color:#DBBD6B;
+}
+.programacao{
+	background-color:#A1C284;
+}
+.doramas{
+	background-color:#6457A6;
+}
+.my{
+	background-color:#FF8F5C;
+}
+.button:hover {
+ transform: scale(1.03);
+  transition:0.7s;
+  box-shadow: 0px 0 10px black;
+	filter: opacity(90%);
+}
+footer{
+    height: 80px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+	background-color:#777575;
+	color:white;
+}
+.myy{
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .button{
+	  
+  width: 80px 80px;
+  }
+}
